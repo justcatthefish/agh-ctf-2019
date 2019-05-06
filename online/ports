@@ -1,0 +1,14 @@
+WEBY:
+PHPSon: http://159.89.21.200:8081
+PHPSon 2: http://159.89.21.200:8082
+PHPCollision: http://159.89.21.200:8083
+PHPMagic: http://159.89.21.200:8084 
+Traverse the universe: http://159.89.21.200:8001/
+
+EXP:
+exp0: nc 159.89.21.200 1337
+exp2: nc 159.89.21.200 1339
+math-game: nc 159.89.21.200 1340
+random-lottery: nc 159.89.21.200 1342
+
+aes oh aes: nc 159.89.21.200 1341

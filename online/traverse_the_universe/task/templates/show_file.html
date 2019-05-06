@@ -1,0 +1,29 @@
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="AGH jCTF 2019">
+    <meta name="author" content="disconnect3d">
+
+    <title>File manager service</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{ url_for('static', filename='bootstrap.min.css') }}" rel="stylesheet">
+  </head>
+
+  <body class="bg-light">
+    <ul class="list-group">
+        <li class="list-group-item active">
+            <div class="row">
+                <div class="col-sm">Showing file: <b>{{path}}</b></div>
+                <div class="col-bm"><a href="/"><button type="button" class="btn btn-dark">Go back to home</button></a></div> 
+            </div>
+        </li>
+        <li class="list-group-item">{{ content | safe }}</li>
+    </ul>
+  </body>
+    <footer class="footer">
+      <div class="container">
+          <span class="text-muted">CTF Task created by Disconnect3d for AGH CTF @ 2019</span>
+      </div>
+    </footer>
+</html>
