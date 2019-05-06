@@ -6,11 +6,11 @@ from CryptoAttacks.Utils import i2b
 from gmpy2 import iroot
 
 
-with open('flag_enc.txt', 'rb') as f:
+with open('../flag_enc.txt', 'rb') as f:
     flag = f.read()
     flag = int.from_bytes(flag, 'big')
 
-key = rsa.RSAKey.import_key('./key.pem')
+key = rsa.RSAKey.import_key('../key.pem')
 
 f = flag
 for i in range(0, 300):
