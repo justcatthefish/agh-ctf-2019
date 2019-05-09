@@ -9,3 +9,6 @@ I found a simple encryption oracle for you. Just use it to get the flag.
 
 #### Stats
 Number of solves at the event: 0
+
+#### Notes
+Task have a bug (see solution). May be unsolvable.
