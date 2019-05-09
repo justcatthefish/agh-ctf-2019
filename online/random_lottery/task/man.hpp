@@ -15,7 +15,7 @@ public:
     void visitShop(Shop&);
     void addCash(size_t);
     bool haveEnoughMoney(int64_t);
-    bool buy(int64_t);
+    bool buy(size_t);
 
 private:
     int64_t money = 2;

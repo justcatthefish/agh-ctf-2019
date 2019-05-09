@@ -48,7 +48,7 @@ void Man::goFishing() {
     exit(0);
 }
 
-bool Man::buy(int64_t price) {
+bool Man::buy(size_t price) {
     if(price <= this->money) {
         this->money -= price;
         return true;

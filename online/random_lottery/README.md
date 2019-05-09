@@ -12,3 +12,6 @@ And don't be afraid of threads :)
 
 #### Stats
 Number of solves at the event: 0
+
+#### Note
+Task was (probably) unsolvable during the CTF. This is fixed version.
