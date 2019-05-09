@@ -9,3 +9,10 @@ What does execstack mean?
 
 #### Stats
 Number of solves at the event: 0
+
+#### Notes
+If you hit infinite loop on read, modify the code:
+```c
+if(read(0, name, 7331) == 0)
+  break;
+```
